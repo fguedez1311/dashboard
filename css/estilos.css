@@ -7,3 +7,81 @@ a{
     text-decoration: none;
 }
 
+/* La Barra Lateral */
+
+.barra-lateral{
+    background-color: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+.barra-lateral a{
+    color: #fff;
+}
+.barra-lateral .logo{
+    background: #0275db;
+}
+.barra-lateral .logo h2{
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+/* Menú */
+.barra-lateral .menu a{
+     display: block;
+     padding: 20px;
+     font-family:'Roboto',sans-serif;
+     font-weight: 500;
+     border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.barra-lateral .menu a:hover{
+   background: #35ae6b;
+}
+.barra-lateral .menu a svg{
+   margin-right: 10px;
+}
+
+
+/* MEDIAQUERIES */
+
+* Dispositivo xs */
+@media screen and (max-width: 320px){
+	
+
+}
+
+
+/* Dispositivo sm */
+@media screen and (max-width: 576px){
+	.barra-lateral{
+        min-height: auto;
+    }
+
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px){}
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px){
+	
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px){
+    .barra-lateral{
+        min-width: auto;
+    }
+    .barra-lateral .logo{
+        display: none;
+    }
+    .barra-lateral .menu a svg{
+        display: none;
+    }
+}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px){}
+
+
